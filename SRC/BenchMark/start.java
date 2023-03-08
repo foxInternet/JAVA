@@ -21,7 +21,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class start {
-	private final static String VER="BenchMark CPU (SingleCore and MultiCore test).              ver.1.0.03.03RC1 (9.02.23)    Developer: Blinov Vladimir";
+	private final static String VER="BenchMark CPU (SingleCore and MultiCore test).              ver.1.0.03.07 RC1 (9.02.23)    Developer: Blinov Vladimir";
 	static start obj=new start();
 	
 	static String model,model2;
@@ -234,7 +234,7 @@ public class start {
 		tf5.setText("#5.Вычисления с плавающей запятой 1.");
 		tf6.setText("#6.Вычисления с плавающей запятой 2.");
 		tf7.setText("#7.Вычисления с плавающей запятой 3.");
-		tf8.setText("#8.Потоковое вычисление Stream<Long>reduce");
+		tf8.setText("#8.Потоковое вычисление Stream<>reduce,map,collect");
 		tf9.setText("#9.Потоковое вычисление Stream<Double>reduce");
 		tf10.setText("#10.Сортировка QuickSort.Метод Хоара");
 		tfm1.setText("#1.Сортировка методом пузырька.Fork/Join");
@@ -244,7 +244,7 @@ public class start {
 		tfm5.setText("#5.Fork/Join Вычисления с плавающей запятой 1.");
 		tfm6.setText("#6.Fork/Join Вычисления с плавающей запятой 2.");
 		tfm7.setText("#7.Fork/Join Вычисления с плавающей запятой 3.");
-		tfm8.setText("#8.Потоковое вычисление Stream<Long>reduce");
+		tfm8.setText("#8.Потоковое вычисление Stream<>reduce,map,collect");
 		tfm9.setText("#9.Потоковое вычисление Stream<Double>reduce");
 		tfm10.setText("#10.Fork/Join сортировка quickSort. Метод Хоара.");
 		JPanel p1=new JPanel();				//Для надписей cpuSingle
