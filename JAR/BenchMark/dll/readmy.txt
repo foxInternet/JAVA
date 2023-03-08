@@ -1,1 +1,1 @@
-Copy  dll to %JAVA_HOME%\bin\
+Copy  sigar-amd64-winnt.dll to %JAVA_HOME%\bin\
